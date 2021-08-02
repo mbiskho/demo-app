@@ -1,4 +1,6 @@
-const counterReducer = (state = 1, action) => {
+const initialState = 1;
+
+const counterReducer = (state = initialState, action) => {
   switch (action.type) {
     case "INCREMENT":
       return state + 1;

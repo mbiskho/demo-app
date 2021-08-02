@@ -10,10 +10,12 @@ _Copyright © BismaKhomeini react-template-2020_
 4. Sweetalert2
 5. React Helmet
 6. Frammer-Motion
-7. Use Docker
+7. Docker & nginx
 8. Styled-Components
 9. Prettierrc
 10. Both react & redux router
+11. Integration with redux dev tools
+12. React hamburger menu
 
 # How to start
 
