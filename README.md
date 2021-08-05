@@ -1,9 +1,8 @@
 # React-Starter
 
-_Copyright © BismaKhomeini react-template-2020_
+
 
 # Features
-
 1. Redux
 2. React-Redux
 3. React Thunk
@@ -18,14 +17,20 @@ _Copyright © BismaKhomeini react-template-2020_
 12. React hamburger menu
 
 # How to start
-
-1. git clone
+```
+1. git clone {link}
 2. npm install
 3. npm start
+```
+
 
 # How to use prettier
-
+```
 1. format all files with Prettier: npx prettier --write .
 2. checking all files : npx prettier --check .
+```
+
 
 **NOTE : Please dont use Yarn**
+
+_Copyright © BismaKhomeini react-template-2020_
