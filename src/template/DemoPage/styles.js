@@ -61,5 +61,5 @@ const Styles = styled.div`
         border : 2px solid black;
     }
 
-`
+`;
 export default Styles;
