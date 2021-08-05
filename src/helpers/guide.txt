@@ -1,9 +1,9 @@
 /*
 |--------------------------------------------------------------------------
-| Static files
+| Helpers
 |--------------------------------------------------------------------------
 |
-| Here is where you can store static(unchange) file here
+| Here is where you can add some function that usefull through all apps
 | to make it happen use jsconfig extension
 | 
 |
