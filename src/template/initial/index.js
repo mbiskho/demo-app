@@ -53,7 +53,7 @@ export default class Index extends Component {
 
 /*
 |--------------------------------------------------------------------------
-| React  Class Component : Using redux templating
+| React Functional Component : Using redux templating
 |--------------------------------------------------------------------------
 |
 | Here is react-redux templating 
@@ -89,7 +89,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Index)
 
 /*
 |--------------------------------------------------------------------------
-| React  Class Component : Using redux templating + propTypes
+| React Functional Component : Using redux templating + propTypes
 |--------------------------------------------------------------------------
 |
 | A highly fucntional templating for highly page and reusable component
