@@ -11,15 +11,10 @@ node {
        sh 'npm test'
      }
    }
-
-  stage('Build image') {
-        /* This builds the actual image; synonymous to
-         * docker build on the command line */
-         def app = docker.build("bisnaisu/docker-example:${commit_id}", '.')
-  }
+   
    stage('docker build/push') {
      docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-      //  def app = docker.build("bisnaisu/docker-example:${commit_id}", '.').push()
+      def app = docker.build("bisnaisu/docker-example:${commit_id}", '.')
       app.push("latest")
      }
    }
